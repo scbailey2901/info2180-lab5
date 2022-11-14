@@ -57,15 +57,33 @@ header h1{
   border-width: 1px;
   outline: none;
   box-shadow: none;
+  background-color:#38b2ac;
+  padding: 5px;
+  border-color: none;
+  border: 1px outset whitesmoke;
+  box-shadow: none;
+  outline: none;
+  width: 130px;
+  color: #fffcfc;
+}
+
+#controls #lookupcities{
+  float: center;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 1px;
+  outline: none;
+  box-shadow: none;
   background-color:#087cbc;
   padding: 5px;
   border-color: none;
   border: 1px outset whitesmoke;
   box-shadow: none;
   outline: none;
-  width: 80px;
+  width: 130px;
   color: #fffcfc;
 }
+
 
 #result{
   height:fit-content;
@@ -77,18 +95,19 @@ header h1{
   float:center;
   align-items: center;
   margin-top: 20px;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 390px;
+  margin-right: 390px;
   margin-bottom: 50px;
 }
 
 th,td{
   border: 1px solid #ececf4;
   padding:10px;
+  width: 300px;
 }
 
 thead th{
-  width:25%;
+  width: 200px;
   text-align: center;
   padding: 10px;
 
@@ -97,3 +116,5 @@ thead th{
 tbody tr:nth-child(odd) {
   background-color: #eee;
 }
+
+
