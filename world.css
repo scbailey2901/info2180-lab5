@@ -68,7 +68,7 @@ header h1{
 }
 
 #result{
-  height:1000px;
+  height:fit-content;
 }
 
 #table{
